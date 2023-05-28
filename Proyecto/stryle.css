@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color: #dedede;
+    background-size: cover;
+}
+
+a{
+    transition: .3s all;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    padding: 10px 0;
+    background-color: #c9a189;
+
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.header .main_manu{
+    display: flex;
+}
+
+.header .main_manu li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.header .main_manu li{
+    position: relative;
+}
+
+.header .main_manu li .sub_indice{
+    position: absolute;
+    width: 180px;
+    background-color: #803c40;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .3s all;
+}
+
+.header .main_manu li .sub_indice li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.main_manu li:hover > a{
+    color: #C65D7B;
+}
+
+.sub_indice li:hover a{
+    background-color: #C65D7B;
+    color: white;
+}
+
+.common_btn a{
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-family: poppins;
+    font-size: 22px;
+    color: white;
+    border: 1px solid #C65D7B;
+    text-decoration: none;
+}
+
+.common_btn a:hover{
+    background-color: #C65D7B;
+    color: #fff;
+}
+
+.main_manu li:hover .sub_indice{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.contenido header{
+    margin: 33px;
+    margin-left: 8%;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    background: rgba(178, 184, 180, 0.247);
+    margin-right: 5%;
+}
+
+.contenido .informacion{
+    font-size: 20px;
+    margin: 18px;
+    margin-left: 8%;
+    margin-top: 1px;
+    margin-right: 5%;
+    font-family: 'Space Grotesk', sans-serif;
+    background: rgba(178, 184, 180, 0.247);
+}
+
